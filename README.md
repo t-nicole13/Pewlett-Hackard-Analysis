@@ -39,7 +39,7 @@
 
 
 ## Summary
-- Our original results showed duplicates because some employees have switched titles duting their time at the company.  
+- Our original results showed duplicates because some employees have switched titles during their time at the company.  
 - After removing the duplicates and counting the number of employees eligible for retirement by title, my analysis shows only 2 managers are eligible.  The most employees eligible for retirement hold senior titles (Engineer and Staff).
 - Per the count of the unique_titles table, at least 72,458 roles will need to be filled as the employees begin to retire. 
     - query: SELECT COUNT(emp_no) FROM unique_titles;
