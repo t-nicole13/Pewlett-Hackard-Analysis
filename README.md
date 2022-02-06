@@ -1,8 +1,8 @@
 # Pewlett-Hackard-Analysis
 
 ## Objective
-- Goal(s): Perform an analysis of the employees to determine who is eligible for retirement at Pewlett-Hackard.  Create a new mentoring program where experienced employees will mentor newly hired people.  
-- Analysis:
+### Goal(s): Perform an analysis of the employees to determine who is eligible for retirement at Pewlett-Hackard.  Create a new mentoring program where experienced employees will mentor newly hired people.  
+### Analysis:
     - Task 1: Create an Entity Relationship Diagram (ERD) to map our data (csv files) and use the ERD to create tables for each CSV file in pgAdmin.
     - Task 2: Determine retirement eligibility by performing queries in pgAdmin and export to a csv file (retirement_info.csv).
     - Task 3: Create new tables for employee information, managers in each department, and employees in each department.  Also, export each to a csv file (emp_info.csv, manager_info.csv, dept_info.csv).
@@ -16,19 +16,19 @@
 - CSV files in the Data folder
 
 ## Results
-- Retiring Titles Table
+### Retiring Titles Table
 
   ![retiring_titles_table](https://user-images.githubusercontent.com/33010018/152659068-8fc41940-738b-4902-8fc8-c056e049ed30.png)
   - The most employees eligible for retirement hold senior titles (Engineer and Staff).
 
 
-- Count of Employee Numbers of Unique Titles Table
+### Count of Employee Numbers of Unique Titles Table
 
   ![unique_count](https://user-images.githubusercontent.com/33010018/152659037-7970d6d8-5d5a-4585-a26b-0ec40727ee58.png)
   - 72,458 roles will need to be filled as the employees begin to retire.
 
 
-- Count of Employee Numbers of Mentorship Eligibility Table
+### Count of Employee Numbers of Mentorship Eligibility Table
 
   ![mentors_count](https://user-images.githubusercontent.com/33010018/152659052-895ac3a0-62d6-4f34-be65-e178ea8f54f1.png)
   - 1549 employees eligible for mentorship.
