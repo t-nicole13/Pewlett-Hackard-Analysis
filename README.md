@@ -48,5 +48,6 @@
 ### Final Analysis: 
  -  We don't have enough mentors for the newly hired employees that will replace our potential retirees.
  -  After checking the count of titles on the mentorship_eligibilty table,  I found that there were only 294 Senior Engineers available.  Since the most eligible employees availble for retirement are Senior Engineers, the company could find a way to increase the number of mentors available for that position. 
+ -  
   ![Screen Shot 2022-02-06 at 12 20 08 PM](https://user-images.githubusercontent.com/33010018/152692975-46483f3c-ddde-4c5e-9f6b-1a6c38addb94.png)
 
