@@ -1,7 +1,7 @@
 # Pewlett-Hackard-Analysis
 
 ## Objective
-Perform an analysis of the employees to determine who is eligible for retirement at Pewlett-Hackard.  Create a new mentoring program where experienced employees will mentor newly hired people. 
+Use PostgreSQL to perform an analysis of the employees to determine who is eligible for retirement at Pewlett-Hackard.  My goal is to use the results to decide if a new mentoring program where experienced employees mentor newly hired people will be useful. 
 
 ### Analysis:
     - Task 1: Create an Entity Relationship Diagram (ERD) to map our data (csv files) and use the ERD to create tables for each CSV file in pgAdmin.
@@ -39,19 +39,20 @@ Perform an analysis of the employees to determine who is eligible for retirement
 
 
 ## Summary
-- Our original results showed duplicates because some employees have switched titles during their time at the company.  
+- Some results showed duplicates because some employees have switched titles during their time at the company.  
 - After removing the duplicates and counting the number of employees eligible for retirement by title, my analysis shows only 2 managers are eligible.  The most employees eligible for retirement hold senior titles (Engineer and Staff).
 - Per the count of the unique_titles table, at least 72,458 roles will need to be filled as the employees begin to retire. 
     - query: SELECT COUNT(emp_no) FROM unique_titles;
 - Based on the count of the emp_no from the mentorship_eligibilty table, there only 1549 employees eligible for mentorship.
    - query: SELECT COUNT(emp_no) FROM mentorship_eligibilty;
-### Final Analysis: 
- -  We don't have enough mentors for the newly hired employees that will replace our potential retirees.
- -  After checking the count of titles on the mentorship_eligibilty table,  I found that there were only 294 Senior Engineers available.  Since the most eligible employees availble for retirement are Senior Engineers, the company could find a way to increase the number of mentors available for that position. 
- ### 
-  ![Screen Shot 2022-02-06 at 12 20 08 PM](https://user-images.githubusercontent.com/33010018/152692975-46483f3c-ddde-4c5e-9f6b-1a6c38addb94.png)
+-  We don't have enough mentors for the newly hired employees that will replace our potential retirees.
+
+## Suggestions To Make The Mentoring Program Useful
+-  After checking the count of titles on the mentorship_eligibilty table,  I found that there were only 294 Senior Engineers available.  Since the most eligible employees available for retirement are Senior Engineers, the company could find a way to increase the number of mentors available for that position. 
+
+![Screen Shot 2022-02-06 at 12 20 08 PM](https://user-images.githubusercontent.com/33010018/152692975-46483f3c-ddde-4c5e-9f6b-1a6c38addb94.png)
   
  - After reviewing the retirement_titles table, I found that many employees have had multiple titles within the company.  The employees could mentor in previous roles instead of just the current title they hold.  This could increase the number of titles available for mentorship.
- ###
+
 ![Screen Shot 2022-02-06 at 12 49 10 PM](https://user-images.githubusercontent.com/33010018/152694308-2b454fc2-c2a1-4790-818b-ea6babd8471d.png)
 
