@@ -31,7 +31,6 @@ Use PostgreSQL to perform an analysis of the employees to determine who is eligi
 
 
 ### Count of Employee Numbers of Mentorship Eligibility Table
-- The Retirement Titles Table held duplicate employee numbers due to changing titles throughout their time at Pewlett-Hackard.
 - 1549 employees eligible for mentorship.
 
 ![mentors_count](https://user-images.githubusercontent.com/33010018/152659052-895ac3a0-62d6-4f34-be65-e178ea8f54f1.png)
